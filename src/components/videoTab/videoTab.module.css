@@ -1,0 +1,51 @@
+.videoTab {
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.videoTab__top {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  justify-content: space-between;
+}
+.sno {
+  height: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.34;
+}
+.text {
+  height: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 140%;
+  letter-spacing: 0.833333px;
+  display: flex;
+  flex-direction: column;
+}
+.videoTab__bottom {
+  width: 100%;
+}
+.videno {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 164%;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+hr {
+  width: 100%;
+}

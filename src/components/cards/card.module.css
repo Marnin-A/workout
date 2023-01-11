@@ -1,0 +1,55 @@
+.card {
+  width: 373px;
+  height: 250px;
+  box-shadow: 0 -30px 50px 15px rgb(0, 0, 0) inset;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 20px 20px 20px;
+}
+.title {
+  width: 373px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.title__text {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  width: 72px;
+  height: 29px;
+  background: #000000;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 1.36667px;
+}
+.calories {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  opacity: 0.67;
+  margin-left: 13px;
+}
